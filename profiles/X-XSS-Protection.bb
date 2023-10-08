@@ -10,7 +10,7 @@
     "UrlEncode": false,
     "CharsToUrlEncode": "",
     "Grep": [
-      "true,,(?i)X-XSS-Protection"
+      "true,,(?i)X-XSS-Protection:.*\\b1\\b.*"
     ],
     "Tags": [
       "All",
@@ -43,10 +43,10 @@
     "payloadPosition": 0,
     "payloadsFile": "",
     "grepsFile": "",
-    "IssueName": "Security Headers - X-XSS-Protection Deprecated",
+    "IssueName": "Security Headers Misconfig - X-XSS-Protection Deprecated",
     "IssueSeverity": "Low",
     "IssueConfidence": "Firm",
-    "IssueDetail": "\"X-XSS-Protection\" security header is deprecated.",
+    "IssueDetail": "\"X-XSS-Protection\" security header is deprecated. \u003cbr\u003e \u003cgrep\u003e",
     "RemediationDetail": "",
     "IssueBackground": "",
     "RemediationBackground": "",
