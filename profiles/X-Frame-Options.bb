@@ -27,7 +27,7 @@
     "ExcludeHTTP": false,
     "OnlyHTTP": true,
     "IsContentType": true,
-    "ContentType": "text/css,image/jpeg,image/png,image/svg+xml,image/gif,image/tiff,image/webp,image/x-icon,application/font-woff,image/vnd.microsoft.icon,font/ttf,font/woff2,application/javascript,application/octet-stream,text/javascript",
+    "ContentType": "text/css,image/jpeg,image/png,image/svg+xml,image/gif,image/tiff,image/webp,image/x-icon,application/font-woff,image/vnd.microsoft.icon,font/ttf,font/woff2,application/javascript,application/octet-stream,text/javascript,image/avif",
     "HttpResponseCode": "",
     "NegativeCT": true,
     "IsResponseCode": false,

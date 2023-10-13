@@ -10,7 +10,8 @@
     "UrlEncode": false,
     "CharsToUrlEncode": "",
     "Grep": [
-      "true,,https?:\\/\\/maps\\.googleapis\\.com\\/.*\\bkey\u003d([^\u0026\\s]{15,})"
+      "true,,https?:\\/\\/maps\\.googleapis\\.com\\/.*\\bkey\u003d([^\u0026\\s]{15,})",
+      "true,Or,(?i)google-api-key\u003d\".*\\b\""
     ],
     "Tags": [
       "All",
