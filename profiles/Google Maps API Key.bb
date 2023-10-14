@@ -48,7 +48,7 @@
     "IssueName": "Google Maps API Key Found!",
     "IssueSeverity": "Low",
     "IssueConfidence": "Firm",
-    "IssueDetail": "A Google Maps API key has been found!\nFurther investigation should be done to determine if the API key found can be misused.",
+    "IssueDetail": "A Google Maps API key has been found!\nFurther investigation should be done to determine if the API key found can be misused.\n\u003cbr\u003e \u003cgrep\u003e",
     "RemediationDetail": "HTTP Referrers (Websites): Restricts apps via HTTP Referrer headers which are defined to.\nWildcards can be used for multiple domains/paths such as *.example.com/*.\nHowever be careful when using, because some bypass techniques can be used if the wildcard is defined such as *example.com or example.com*.\n\nResources:\nhttps://developers.google.com/maps/api-security-best-practices\nhttps://developers.google.com/maps/api-security-best-practices#unauth-key-use",
     "IssueBackground": "A threat actor could abuse the use of the identified API key for their own business or purposes, causing additional costs to the organisation.",
     "RemediationBackground": "These API keys have some security configurations to prevent unauthorised use by malicious people that are not present by default. \nDevelopers must configure these security controls at their own discretion. \nAlthough these API keys are designed to be public API keys and have no impact on the confidentiality/integrity of customer data, these security configurations still need to be implemented to block unauthorised use.",
