@@ -10,7 +10,8 @@
     "UrlEncode": false,
     "CharsToUrlEncode": "",
     "Grep": [
-      "true,,(?i)Cache-Control:.*no-store.*"
+      "true,,(?i)Cache-Control:.*no-store.*",
+      "true,Or,^(?i)Cache-Control:.*no-store.*"
     ],
     "Tags": [
       "All",
@@ -36,10 +37,15 @@
     "urlextension": "",
     "isurlextension": false,
     "NegativeUrlExtension": false,
+    "isHeaderValue": false,
+    "sequence": false,
+    "NewHeaders": [],
     "MatchType": 2,
     "Scope": 2,
     "RedirType": 0,
     "MaxRedir": 0,
+    "requestType": 1,
+    "rawRequest": "",
     "payloadPosition": 0,
     "payloadsFile": "",
     "grepsFile": "",
@@ -55,6 +61,9 @@
     "InsertionPointType": [],
     "Scanas": false,
     "Scantype": 0,
-    "pathDiscovery": false
+    "pathDiscovery": false,
+    "changeHttpRequest": false,
+    "showIssue": false,
+    "changeHttpRequestType": 0
   }
 ]

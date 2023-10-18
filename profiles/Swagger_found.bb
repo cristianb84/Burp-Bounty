@@ -4,13 +4,16 @@
     "Name": "",
     "Enabled": true,
     "Scanner": 2,
-    "Author": "@six2dez1",
+    "Author": "@burpbounty",
     "Payloads": [],
     "Encoder": [],
     "UrlEncode": false,
     "CharsToUrlEncode": "",
     "Grep": [
-      "true,,swagger-ui.html"
+      "true,,swagger-ui.html",
+      "true,Or,\\\"swagger\\\":",
+      "true,Or,Swagger UI",
+      "true,Or,swaggerUi"
     ],
     "Tags": [
       "All"
@@ -35,17 +38,22 @@
     "urlextension": "",
     "isurlextension": false,
     "NegativeUrlExtension": false,
+    "isHeaderValue": false,
+    "sequence": false,
+    "NewHeaders": [],
     "MatchType": 1,
-    "Scope": 2,
+    "Scope": 1,
     "RedirType": 0,
     "MaxRedir": 0,
+    "requestType": 1,
+    "rawRequest": "",
     "payloadPosition": 0,
     "payloadsFile": "",
     "grepsFile": "",
     "IssueName": "Swagger url found",
     "IssueSeverity": "Information",
-    "IssueConfidence": "Certain",
-    "IssueDetail": "Swagger url found",
+    "IssueConfidence": "Firm",
+    "IssueDetail": "Swagger url found:\n\n\u003cbr/\u003e\u003cbr/\u003e- GREP: \u003cbr/\u003e\u003cgrep\u003e\n\u003cbr/\u003e",
     "RemediationDetail": "",
     "IssueBackground": "",
     "RemediationBackground": "",
@@ -54,6 +62,9 @@
     "InsertionPointType": [],
     "Scanas": false,
     "Scantype": 0,
-    "pathDiscovery": false
+    "pathDiscovery": false,
+    "changeHttpRequest": false,
+    "showIssue": false,
+    "changeHttpRequestType": 0
   }
 ]

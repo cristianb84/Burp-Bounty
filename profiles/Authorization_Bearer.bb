@@ -4,13 +4,13 @@
     "Name": "",
     "Enabled": true,
     "Scanner": 2,
-    "Author": "@six2dez1",
+    "Author": "@burpbounty",
     "Payloads": [],
     "Encoder": [],
     "UrlEncode": false,
     "CharsToUrlEncode": "",
     "Grep": [
-      "true,,bearer\\s*[a-zA-Z0-9_\\-\\.\u003d:_\\+\\/]+"
+      "true,,Bearer\\s[\\d|a-f]{8}-[\\d|a-f]{4}-[\\d|a-f]{4}-[\\d|a-f]{4}-[\\d|a-f]{12}"
     ],
     "Tags": [
       "All"
@@ -35,17 +35,22 @@
     "urlextension": "",
     "isurlextension": false,
     "NegativeUrlExtension": false,
+    "isHeaderValue": false,
+    "sequence": false,
+    "NewHeaders": [],
     "MatchType": 2,
     "Scope": 2,
     "RedirType": 0,
     "MaxRedir": 0,
+    "requestType": 1,
+    "rawRequest": "",
     "payloadPosition": 0,
     "payloadsFile": "",
     "grepsFile": "",
     "IssueName": "Authorization Bearer",
     "IssueSeverity": "Information",
-    "IssueConfidence": "Certain",
-    "IssueDetail": "Authorization Bearer",
+    "IssueConfidence": "Firm",
+    "IssueDetail": "Authorization Bearer\n\n\u003cbr/\u003e\u003cbr/\u003e- GREP: \u003cbr/\u003e\u003cgrep\u003e\n\u003cbr/\u003e",
     "RemediationDetail": "",
     "IssueBackground": "",
     "RemediationBackground": "",
@@ -54,6 +59,9 @@
     "InsertionPointType": [],
     "Scanas": false,
     "Scantype": 0,
-    "pathDiscovery": false
+    "pathDiscovery": false,
+    "changeHttpRequest": false,
+    "showIssue": false,
+    "changeHttpRequestType": 0
   }
 ]

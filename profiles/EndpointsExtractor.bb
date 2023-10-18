@@ -2,15 +2,15 @@
   {
     "ProfileName": "EndpointsExtractor",
     "Name": "",
-    "Enabled": true,
+    "Enabled": false,
     "Scanner": 2,
-    "Author": "@GochaOqradze",
+    "Author": "@burpbounty",
     "Payloads": [],
     "Encoder": [],
     "UrlEncode": false,
     "CharsToUrlEncode": "",
     "Grep": [
-      "false,,}\\.[a-zA-Z]{2,}[^\"\u0027]{0,})|((?:/|\\.\\./|\\./)[^\"\u0027\u003e\u003c,;| *()(%%$^/\\\\\\[\\]][^\"\u0027\u003e\u003c,;|()]{1,})|([a-zA-Z0-9_\\-/]{1,}/[a-zA-Z0-9_\\-/]{1,}\\.(?:[a-zA-Z]{1,4}|action)(?:[\\?|/][^\"|\u0027]{0,}|))|([a-zA-Z0-9_\\-]{1,}\\.(?:php|asp|aspx|jsp|json|action|html|js|txt|xml)(?:\\?[^\"|\u0027]{0,}|)))(?:\"|\u0027)"
+      "true,,(?:\"|\u0027)(((?:[a-zA-Z]{1,10}://|//)[^\"\u0027/]{1,}\\.[a-zA-Z]{2,}[^\"\u0027]{0,})|((?:/|\\.\\./|\\./)[^\"\u0027\u003e\u003c,;|*()(%%$^/\\\\\\[\\]][^\"\u0027\u003e\u003c,;|()]{1,})|([a-zA-Z0-9_\\-/]{1,}/[a-zA-Z0-9_\\-/]{1,}\\.(?:[a-zA-Z]{1,4}|action)(?:[\\?|#][^\"|\u0027]{0,}|))|([a-zA-Z0-9_\\-/]{1,}/[a-zA-Z0-9_\\-/]{3,}(?:[\\?|#][^\"|\u0027]{0,}|))|([a-zA-Z0-9_\\-]{1,}\\.(?:php|asp|aspx|jsp|json|action|html|js|txt|xml)(?:[\\?|#][^\"|\u0027]{0,}|)))(?:\"|\u0027)"
     ],
     "Tags": [
       "All"
@@ -25,27 +25,32 @@
     "CaseSensitive": false,
     "ExcludeHTTP": true,
     "OnlyHTTP": false,
-    "IsContentType": false,
-    "ContentType": "",
+    "IsContentType": true,
+    "ContentType": "text/css,image/jpeg,image/png,image/svg+xml,image/gif,image/tiff,image/webp,image/x-icon,application/font-woff,image/vnd.microsoft.icon,font/ttf,font/woff2",
     "HttpResponseCode": "",
-    "NegativeCT": false,
+    "NegativeCT": true,
     "IsResponseCode": false,
     "ResponseCode": "",
     "NegativeRC": false,
     "urlextension": "",
     "isurlextension": false,
     "NegativeUrlExtension": false,
+    "isHeaderValue": false,
+    "sequence": false,
+    "NewHeaders": [],
     "MatchType": 2,
     "Scope": 2,
     "RedirType": 0,
     "MaxRedir": 0,
+    "requestType": 1,
+    "rawRequest": "",
     "payloadPosition": 0,
     "payloadsFile": "",
     "grepsFile": "",
     "IssueName": "EndpointsExtractor",
     "IssueSeverity": "Information",
     "IssueConfidence": "Firm",
-    "IssueDetail": "Regex by Gerben_Javado : \n\u003cbr\u003ehttps://github.com/GerbenJavado/LinkFinder/blob/master/linkfinder.py\n\n\u003cbr\u003e\u003cbr\u003eEndpoints: \u003cbr\u003e\u003cgrep\u003e",
+    "IssueDetail": "\u003cbr/\u003e\u003cbr/\u003e\n- Endpoints: \u003cbr/\u003e\u003cgrep\u003e",
     "RemediationDetail": "",
     "IssueBackground": "",
     "RemediationBackground": "",
@@ -54,6 +59,9 @@
     "InsertionPointType": [],
     "Scanas": false,
     "Scantype": 0,
-    "pathDiscovery": false
+    "pathDiscovery": false,
+    "changeHttpRequest": false,
+    "showIssue": false,
+    "changeHttpRequestType": 0
   }
 ]

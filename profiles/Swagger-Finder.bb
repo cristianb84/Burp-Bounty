@@ -4,7 +4,7 @@
     "Name": "",
     "Enabled": true,
     "Scanner": 1,
-    "Author": "@egarme",
+    "Author": "@burpbounty",
     "Payloads": [
       "true,/swagger-ui.html",
       "true,/swagger/swagger-ui.html",
@@ -12,13 +12,16 @@
       "true,/swagger/index.html",
       "true,/v1.0/swagger-ui.html",
       "true,/v2.0/swagger-ui.html",
-      "true,/v3.0/swagger-ui.html"
+      "true,/v3.0/swagger-ui.html",
+      "true,/api/swagger.json",
+      "true,/v1/api-docs/v1/swagger.json"
     ],
     "Encoder": [],
     "UrlEncode": false,
     "CharsToUrlEncode": "",
     "Grep": [
-      "true,,id\u003d\"swagger"
+      "true,,id\u003d\"swagger",
+      "true,Or,{\"openapi"
     ],
     "Tags": [
       "All"
@@ -31,10 +34,10 @@
     "contentLength": "",
     "iscontentLength": false,
     "CaseSensitive": false,
-    "ExcludeHTTP": false,
+    "ExcludeHTTP": true,
     "OnlyHTTP": false,
-    "IsContentType": false,
-    "ContentType": "",
+    "IsContentType": true,
+    "ContentType": "200",
     "HttpResponseCode": "",
     "NegativeCT": false,
     "IsResponseCode": false,
@@ -43,27 +46,36 @@
     "urlextension": "",
     "isurlextension": false,
     "NegativeUrlExtension": false,
+    "isHeaderValue": false,
+    "sequence": false,
+    "NewHeaders": [],
     "MatchType": 1,
     "Scope": 0,
     "RedirType": 4,
-    "MaxRedir": 5,
+    "MaxRedir": 3,
+    "requestType": 1,
+    "rawRequest": "",
     "payloadPosition": 1,
     "payloadsFile": "",
     "grepsFile": "",
     "IssueName": "Swagger-Finder",
-    "IssueSeverity": "Low",
+    "IssueSeverity": "Information",
     "IssueConfidence": "Firm",
-    "IssueDetail": "",
+    "IssueDetail": "\n\n\u003cbr/\u003e\u003cbr/\u003e- PAYLOAD: \u003cbr/\u003e\u003cpayload\u003e\n\u003cbr/\u003e\u003cbr/\u003e\n- GREP: \u003cbr/\u003e\u003cgrep\u003e",
     "RemediationDetail": "",
     "IssueBackground": "",
     "RemediationBackground": "",
     "Header": [],
     "VariationAttributes": [],
     "InsertionPointType": [
-      65
+      66,
+      64
     ],
     "Scanas": false,
     "Scantype": 0,
-    "pathDiscovery": false
+    "pathDiscovery": false,
+    "changeHttpRequest": false,
+    "showIssue": false,
+    "changeHttpRequestType": 1
   }
 ]

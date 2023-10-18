@@ -4,7 +4,7 @@
     "Name": "",
     "Enabled": true,
     "Scanner": 2,
-    "Author": "@six2dez1",
+    "Author": "@burpbounty",
     "Payloads": [],
     "Encoder": [],
     "UrlEncode": false,
@@ -13,8 +13,7 @@
       "true,,http(?:s):\\/\\/.[^\u003e\u003c\\\u0027\\\" \\n\\)]+.blob.core.windows.net\\/.[^\u003e\u003c\\\u0027\\\" \\n\\/)]+.\\/"
     ],
     "Tags": [
-      "All",
-      "Cloud"
+      "All"
     ],
     "PayloadResponse": false,
     "NotResponse": false,
@@ -36,17 +35,22 @@
     "urlextension": "",
     "isurlextension": false,
     "NegativeUrlExtension": false,
+    "isHeaderValue": false,
+    "sequence": false,
+    "NewHeaders": [],
     "MatchType": 2,
     "Scope": 2,
     "RedirType": 0,
     "MaxRedir": 0,
+    "requestType": 1,
+    "rawRequest": "",
     "payloadPosition": 0,
     "payloadsFile": "",
     "grepsFile": "",
     "IssueName": "Azure Blob Url detected",
     "IssueSeverity": "Information",
-    "IssueConfidence": "Certain",
-    "IssueDetail": "Azure Blob Url detected",
+    "IssueConfidence": "Firm",
+    "IssueDetail": "Azure Blob Url detected\n\n\u003cbr/\u003e\u003cbr/\u003e- GREP: \u003cbr/\u003e\u003cgrep\u003e\n\u003cbr/\u003e",
     "RemediationDetail": "",
     "IssueBackground": "",
     "RemediationBackground": "",
@@ -55,6 +59,9 @@
     "InsertionPointType": [],
     "Scanas": false,
     "Scantype": 0,
-    "pathDiscovery": false
+    "pathDiscovery": false,
+    "changeHttpRequest": false,
+    "showIssue": false,
+    "changeHttpRequestType": 0
   }
 ]

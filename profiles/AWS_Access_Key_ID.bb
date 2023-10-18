@@ -4,21 +4,17 @@
     "Name": "",
     "Enabled": true,
     "Scanner": 2,
-    "Author": "@six2dez1",
+    "Author": "@burpbounty",
     "Payloads": [],
     "Encoder": [],
     "UrlEncode": false,
     "CharsToUrlEncode": "",
     "Grep": [
-      "true,,[^a-zA-Z0-9](AKIA[a-zA-Z0-9]{16})",
-      "true,Or,(AccessKeyId|aws_access_key_id)",
-      "true,Or,^(AKIA[a-zA-Z0-9]{16})",
-      "true,Or,^((A3T[A-Z0-9]|AKIA|AGPA|AIDA|AROA|AIPA|ANPA|ANVA|ASIA)[A-Z0-9]{16})",
-      "true,Or,[^a-zA-Z0-9]((A3T[A-Z0-9]|AKIA|AGPA|AIDA|AROA|AIPA|ANPA|ANVA|ASIA)[A-Z0-9]{16})"
+      "true,,((A3T[A-Z0-9]|AKIA|AGPA|AIDA|AROA|AIPA|ANPA|ANVA|ASIA)[a-zA-Z0-9]{16})",
+      "true,Or,aws(.{0,20})?(?-i)[\u0027\\\"][0-9a-zA-Z\\/+]{40}[\u0027\\\"]"
     ],
     "Tags": [
-      "All",
-      "Cloud"
+      "All"
     ],
     "PayloadResponse": false,
     "NotResponse": false,
@@ -40,17 +36,22 @@
     "urlextension": "",
     "isurlextension": false,
     "NegativeUrlExtension": false,
+    "isHeaderValue": false,
+    "sequence": false,
+    "NewHeaders": [],
     "MatchType": 2,
     "Scope": 2,
     "RedirType": 0,
     "MaxRedir": 0,
+    "requestType": 1,
+    "rawRequest": "",
     "payloadPosition": 0,
     "payloadsFile": "",
     "grepsFile": "",
     "IssueName": "AWS Access  Key ID",
     "IssueSeverity": "Information",
-    "IssueConfidence": "Certain",
-    "IssueDetail": "",
+    "IssueConfidence": "Firm",
+    "IssueDetail": "AWS_Access_Key_ID\n\n\u003cbr/\u003e\u003cbr/\u003e- GREP: \u003cbr/\u003e\u003cgrep\u003e\n\u003cbr/\u003e",
     "RemediationDetail": "",
     "IssueBackground": "",
     "RemediationBackground": "",
@@ -59,6 +60,9 @@
     "InsertionPointType": [],
     "Scanas": false,
     "Scantype": 0,
-    "pathDiscovery": false
+    "pathDiscovery": false,
+    "changeHttpRequest": false,
+    "showIssue": false,
+    "changeHttpRequestType": 0
   }
 ]

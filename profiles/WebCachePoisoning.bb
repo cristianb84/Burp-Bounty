@@ -4,9 +4,9 @@
     "Name": "",
     "Enabled": true,
     "Scanner": 1,
-    "Author": "@egarme",
+    "Author": "@burpbounty",
     "Payloads": [
-      "true,STRINGFORREQUEST"
+      "true,TOKEN1337"
     ],
     "Encoder": [],
     "UrlEncode": false,
@@ -37,98 +37,43 @@
     "urlextension": "",
     "isurlextension": false,
     "NegativeUrlExtension": false,
+    "isHeaderValue": true,
+    "sequence": false,
+    "NewHeaders": [
+      "X-Forwarded-For",
+      "X-Forwarded-Host",
+      "X-Host",
+      "X-Forwarded-Server",
+      "X-Forwarded-Scheme",
+      "X-Rewrite-URL"
+    ],
     "MatchType": 1,
     "Scope": 0,
     "RedirType": 4,
     "MaxRedir": 3,
+    "requestType": 1,
+    "rawRequest": "",
     "payloadPosition": 1,
     "payloadsFile": "",
     "grepsFile": "",
-    "IssueName": "Web-Cache-Poisoning",
-    "IssueSeverity": "High",
+    "IssueName": "WebCachePoisoning",
+    "IssueSeverity": "Medium",
     "IssueConfidence": "Certain",
-    "IssueDetail": "Web Cache poisoning with payload: \u003cbr\u003e\u003cpayload\u003e\n\n\u003cbr\u003e\u003cbr\u003eBy James Kettle:\u003cbr\u003ehttps://portswigger.net/blog/practical-web-cache-poisoning",
+    "IssueDetail": "\n\n\u003cbr/\u003e\u003cbr/\u003e- PAYLOAD: \u003cbr/\u003e\u003cpayload\u003e\n\u003cbr/\u003e\u003cbr/\u003e\n- GREP: \u003cbr/\u003e\u003cgrep\u003e",
     "RemediationDetail": "",
     "IssueBackground": "",
     "RemediationBackground": "",
-    "Header": [
-      {
-        "type": "Request",
-        "match": "",
-        "replace": "X-Forwarded-For: TOKEN1337",
-        "regex": "String"
-      },
-      {
-        "type": "Request",
-        "match": "",
-        "replace": "X-Host: TOKEN1337",
-        "regex": "String"
-      },
-      {
-        "type": "Request",
-        "match": "",
-        "replace": "X-Forwarded-Server: TOKEN1337",
-        "regex": "String"
-      },
-      {
-        "type": "Request",
-        "match": "",
-        "replace": "X-Forwarded-Scheme: TOKEN1337",
-        "regex": "String"
-      },
-      {
-        "type": "Request",
-        "match": "",
-        "replace": "X-Original-URL: TOKEN1337",
-        "regex": "String"
-      },
-      {
-        "type": "Request",
-        "match": "",
-        "replace": "X-Rewrite-URL: TOKEN1337",
-        "regex": "String"
-      }
-    ],
+    "Header": [],
     "VariationAttributes": [],
     "InsertionPointType": [
-      18,
-      65,
-      32,
-      36,
-      7,
-      1,
-      2,
-      6,
-      33,
-      5,
-      35,
-      34,
       64,
-      0,
-      3,
-      4,
-      37,
-      127,
-      65,
-      32,
-      36,
-      7,
-      1,
-      2,
-      6,
-      33,
-      5,
-      35,
-      34,
-      64,
-      0,
-      3,
-      4,
-      37,
-      127
+      78
     ],
     "Scanas": false,
     "Scantype": 0,
-    "pathDiscovery": false
+    "pathDiscovery": false,
+    "changeHttpRequest": false,
+    "showIssue": false,
+    "changeHttpRequestType": 1
   }
 ]
