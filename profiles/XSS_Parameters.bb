@@ -46,7 +46,8 @@
       "true,Or,All parameters name,.*_id$",
       "true,Or,All parameters name,.*_key$",
       "true,Or,All parameters name,.*_token$",
-      "true,Or,All parameters name,.*search$"
+      "true,Or,All parameters name,.*search$",
+      "true,Or,All parameters name,.*target$"
     ],
     "Tags": [
       "All"
