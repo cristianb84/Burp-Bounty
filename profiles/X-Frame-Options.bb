@@ -27,7 +27,7 @@
     "ExcludeHTTP": false,
     "OnlyHTTP": true,
     "IsContentType": true,
-    "ContentType": "text/css,image/jpeg,image/png,image/svg+xml,image/gif,image/tiff,image/webp,image/x-icon,application/font-woff,image/vnd.microsoft.icon,font/ttf,font/woff2,application/javascript,application/octet-stream,text/javascript,image/avif",
+    "ContentType": "text/css,image/jpeg,image/png,image/svg+xml,image/gif,image/tiff,image/webp,image/x-icon,application/font-woff,image/vnd.microsoft.icon,font/ttf,font/woff2,application/javascript,application/octet-stream,text/javascript,image/avif,application/x-javascript",
     "HttpResponseCode": "",
     "NegativeCT": true,
     "IsResponseCode": false,
@@ -36,10 +36,15 @@
     "urlextension": "",
     "isurlextension": false,
     "NegativeUrlExtension": false,
+    "isHeaderValue": false,
+    "sequence": false,
+    "NewHeaders": [],
     "MatchType": 2,
     "Scope": 2,
     "RedirType": 0,
     "MaxRedir": 0,
+    "requestType": 1,
+    "rawRequest": "",
     "payloadPosition": 0,
     "payloadsFile": "",
     "grepsFile": "",
@@ -55,6 +60,9 @@
     "InsertionPointType": [],
     "Scanas": false,
     "Scantype": 0,
-    "pathDiscovery": false
+    "pathDiscovery": false,
+    "changeHttpRequest": false,
+    "showIssue": false,
+    "changeHttpRequestType": 0
   }
 ]
