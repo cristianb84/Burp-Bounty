@@ -10,8 +10,7 @@
     "UrlEncode": false,
     "CharsToUrlEncode": "",
     "Grep": [
-      "true,,(?i)Cache-Control:.*no-store.*",
-      "true,Or,^(?i)Cache-Control:.*no-store.*"
+      "true,,(?i)Cache-Control:.*no-store.*"
     ],
     "Tags": [
       "All",

@@ -39,3 +39,4 @@ X-Headers-Collab
 Forgot Password
 SecurityHeaders
 InformationDisclosure
+CookieAttributes
