@@ -10,7 +10,7 @@
     "UrlEncode": false,
     "CharsToUrlEncode": "",
     "Grep": [
-      "true,,set-cookie:\\s*(?!.*(httponly)).*"
+      "true,,(?i)Set-Cookie:\\s*([^\u003d]+)\u003d([^;]+);(?!.*httponly)(?!.*expires\u003d[^;]*1970).*"
     ],
     "Tags": [
       "All",
@@ -41,7 +41,7 @@
     "NewHeaders": [],
     "MatchType": 2,
     "Scope": 2,
-    "RedirType": 0,
+    "RedirType": 2,
     "MaxRedir": 0,
     "requestType": 1,
     "rawRequest": "",

@@ -10,7 +10,7 @@
     "UrlEncode": false,
     "CharsToUrlEncode": "",
     "Grep": [
-      "true,,set-cookie:\\s*(?!.*(samesite)).*"
+      "true,,(?i)Set-Cookie:\\s*([^\u003d]+)\u003d([^;]+);(?!.*samesite)(?!.*expires\u003d[^;]*1970).*"
     ],
     "Tags": [
       "All",

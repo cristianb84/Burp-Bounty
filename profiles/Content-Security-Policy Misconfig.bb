@@ -10,7 +10,8 @@
     "UrlEncode": false,
     "CharsToUrlEncode": "",
     "Grep": [
-      "true,,^Content-Security-Policy:(?\u003d(?:(?!default-src).)*$)(?\u003d(?:(?!script-src).)*$|(?:(?!object-src).)*$).+$"
+      "true,,(?i)Content-Security-Policy:(?\u003d(?:(?!default-src).)*$)(?\u003d(?:(?!script-src).)*$|(?:(?!object-src).)*$).+$",
+      "true,Or,(?i)Content-Security-Policy:.*(?:\u0027unsafe-inline\u0027|\u0027unsafe-eval\u0027).*$"
     ],
     "Tags": [
       "SecurityHeaders",
