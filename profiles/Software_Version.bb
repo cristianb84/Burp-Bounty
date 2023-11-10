@@ -72,7 +72,9 @@
       "true,Or,mod_ssl/([\\d.]+)",
       "true,Or,mod_perl/([\\d.]+)",
       "true,Or,mustache\\.version\\s*\u003d\\s*\u0027([\\d.]+)\u0027",
-      "true,Or,Server:.*[0-9].*"
+      "true,Or,Server:.*[0-9].*",
+      "true,Or,(?i)X-Aspnet-Version:\\s*(.+)",
+      "true,Or,(?i)X-Aspnetmvc-Version:\\s*(.+)"
     ],
     "Tags": [
       "All"
