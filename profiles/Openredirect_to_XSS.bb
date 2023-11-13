@@ -23,7 +23,13 @@
       "true,Or,href\u003d\"javascript:prompt",
       "true,Or,action\u003d\"javascript:prompt",
       "true,Or,href\u003d\"javascript:confirm",
-      "true,Or,action\u003d\"javascript:confirm"
+      "true,Or,action\u003d\"javascript:confirm",
+      "true,Or,href\u003d\"alert(",
+      "true,Or,href\u003d\"confirm",
+      "true,Or,href\u003d\"prompt",
+      "true,Or,action\u003d\"alert(",
+      "true,Or,action\u003d\"confirm",
+      "true,Or,action\u003d\"prompt"
     ],
     "Tags": [
       "All",

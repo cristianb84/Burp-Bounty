@@ -20,7 +20,7 @@
       "true,\u003csvg onload\u003d\u0027new Function`[\"XSS\"].find(al\\u0065rt)`\u0027\u003e",
       "true,\u003csvg onx\u003d() onload\u003d(confirm)(1)\u003e",
       "true,%22%26gt%3b%26lt%3bscript%26gt%3balert(%27XSS%27)%26lt%3b/script%26gt%3b%26lt%3b%26%2333%3b%26%2345%3b%26%2345%3b",
-      "true,javascript:alert(13)//c13zoth9"
+      "true,javascript:alert(13)"
     ],
     "Encoder": [],
     "UrlEncode": false,
@@ -39,7 +39,7 @@
       "true,Or,\u003csvg onload\u003d\u0027new Function`[\"XSS\"].find(al\\u0065rt)`\u0027\u003e",
       "true,Or,\u003csvg onx\u003d() onload\u003d(confirm)(1)\u003e",
       "true,Or,\u003cscript\u003ealert(\u0027XSS\u0027)\u003c/script\u003e",
-      "true,Or,javascript:alert(13)//c13zoth9"
+      "true,Or,alert(13)"
     ],
     "Tags": [
       "All",
@@ -68,7 +68,7 @@
     "isHeaderValue": false,
     "sequence": false,
     "NewHeaders": [],
-    "MatchType": 3,
+    "MatchType": 1,
     "Scope": 0,
     "RedirType": 4,
     "MaxRedir": 3,
