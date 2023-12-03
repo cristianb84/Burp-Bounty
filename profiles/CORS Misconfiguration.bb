@@ -6,7 +6,9 @@
     "Scanner": 1,
     "Author": "@burpbounty",
     "Payloads": [
-      "true,https://burpbounty.net"
+      "true,https://burpbounty.net",
+      "true,null",
+      "true,*"
     ],
     "Encoder": [],
     "UrlEncode": false,
