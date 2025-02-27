@@ -2,7 +2,7 @@
   {
     "ProfileName": "Wordpress_user_enum_oembed",
     "Name": "",
-    "Enabled": true,
+    "Enabled": false,
     "Scanner": 1,
     "Author": "@burpbounty",
     "Payloads": [

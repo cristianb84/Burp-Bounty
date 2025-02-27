@@ -2,7 +2,7 @@
   {
     "ProfileName": "Wordpress_XMLRPC_ListMethods",
     "Name": "",
-    "Enabled": true,
+    "Enabled": false,
     "Scanner": 1,
     "Author": "@burpbounty",
     "Payloads": [],

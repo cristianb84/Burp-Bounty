@@ -2,7 +2,7 @@
   {
     "ProfileName": "Wordpress_JSmol2WP_SSRF",
     "Name": "",
-    "Enabled": true,
+    "Enabled": false,
     "Scanner": 1,
     "Author": "@debsec",
     "Payloads": [

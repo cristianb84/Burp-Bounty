@@ -15,8 +15,7 @@
     ],
     "Tags": [
       "All",
-      "InformationDisclosure",
-      "API"
+      "InformationDisclosure"
     ],
     "PayloadResponse": false,
     "NotResponse": false,
