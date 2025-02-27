@@ -21,7 +21,8 @@
       "true,\u003csvg onx\u003d() onload\u003d(confirm)(1)\u003e"
     ],
     "Encoder": [
-      "HTML-encode all characters"
+      "HTML-encode all characters",
+      "URL-encode all characters"
     ],
     "UrlEncode": true,
     "CharsToUrlEncode": "\u0026;#",

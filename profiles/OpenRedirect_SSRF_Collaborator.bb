@@ -22,7 +22,8 @@
     "Grep": [],
     "Tags": [
       "All",
-      "SSRF"
+      "SSRF",
+      "Open Redirect"
     ],
     "PayloadResponse": false,
     "NotResponse": false,

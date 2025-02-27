@@ -18,7 +18,8 @@
       "true,Or,committed-date"
     ],
     "Tags": [
-      "All"
+      "All",
+      "Fuzzing Files"
     ],
     "PayloadResponse": false,
     "NotResponse": false,

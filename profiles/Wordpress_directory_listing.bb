@@ -2,7 +2,7 @@
   {
     "ProfileName": "Wordpress_directory_listing",
     "Name": "",
-    "Enabled": false,
+    "Enabled": true,
     "Scanner": 1,
     "Author": "@burpbounty",
     "Payloads": [

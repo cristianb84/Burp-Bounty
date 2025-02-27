@@ -2,7 +2,7 @@
   {
     "ProfileName": "Wordpress_XMLRPC_Pingback",
     "Name": "",
-    "Enabled": false,
+    "Enabled": true,
     "Scanner": 1,
     "Author": "@burpbounty",
     "Payloads": [],

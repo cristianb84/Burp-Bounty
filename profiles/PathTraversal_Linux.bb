@@ -43,7 +43,8 @@
       "true,,root:x"
     ],
     "Tags": [
-      "All"
+      "All",
+      "Path Traversal"
     ],
     "PayloadResponse": false,
     "NotResponse": false,

@@ -2,7 +2,7 @@
   {
     "ProfileName": "Fuzzing_directories",
     "Name": "",
-    "Enabled": true,
+    "Enabled": false,
     "Scanner": 1,
     "Author": "@burpbounty",
     "Payloads": [
@@ -4697,7 +4697,8 @@
     "CharsToUrlEncode": "",
     "Grep": [],
     "Tags": [
-      "All"
+      "All",
+      "Fuzzing Files"
     ],
     "PayloadResponse": false,
     "NotResponse": false,

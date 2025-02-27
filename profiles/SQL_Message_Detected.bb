@@ -48,7 +48,7 @@
     "payloadsFile": "",
     "grepsFile": "",
     "IssueName": "SQL Text Detected",
-    "IssueSeverity": "Medium",
+    "IssueSeverity": "Information",
     "IssueConfidence": "Firm",
     "IssueDetail": "SQL Text:\u003cbr/\u003e\u003cbr/\u003e- GREP: \u003cbr/\u003e\u003cgrep\u003e\n\u003cbr/\u003e",
     "RemediationDetail": "",

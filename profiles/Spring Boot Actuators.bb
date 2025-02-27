@@ -87,7 +87,8 @@
       "true,Or,application/vnd.spring-boot.actuator"
     ],
     "Tags": [
-      "All"
+      "All",
+      "Fuzzing Files"
     ],
     "PayloadResponse": false,
     "NotResponse": false,

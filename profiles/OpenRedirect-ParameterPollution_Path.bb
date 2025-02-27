@@ -24,7 +24,8 @@
       "true,Or,location\\.replace\\(.http:burpbounty\\.net"
     ],
     "Tags": [
-      "All"
+      "All",
+      "Open Redirect"
     ],
     "PayloadResponse": false,
     "NotResponse": false,

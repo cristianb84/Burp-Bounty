@@ -2,7 +2,7 @@
   {
     "ProfileName": "Wordpress_Config_Accessible",
     "Name": "",
-    "Enabled": false,
+    "Enabled": true,
     "Scanner": 1,
     "Author": "@burpbounty",
     "Payloads": [

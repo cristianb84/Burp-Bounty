@@ -87,7 +87,7 @@
     "ExcludeHTTP": false,
     "OnlyHTTP": false,
     "IsContentType": true,
-    "ContentType": "text/css,image/jpeg,image/png,image/svg+xml,image/gif,image/tiff,image/webp,image/x-icon,application/font-woff,image/vnd.microsoft.icon,font/ttf,font/woff2",
+    "ContentType": "text/css,image/jpeg,image/png,image/svg+xml,image/gif,image/tiff,image/webp,image/x-icon,application/font-woff,image/vnd.microsoft.icon,font/ttf,font/woff2,text/javascript,application/javascript,application/x-javascript",
     "HttpResponseCode": "",
     "NegativeCT": true,
     "IsResponseCode": false,

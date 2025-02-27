@@ -2,7 +2,7 @@
   {
     "ProfileName": "Wordpress_Path_Traversal",
     "Name": "",
-    "Enabled": false,
+    "Enabled": true,
     "Scanner": 1,
     "Author": "@burpbounty",
     "Payloads": [

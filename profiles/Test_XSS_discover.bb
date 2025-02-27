@@ -16,7 +16,8 @@
     ],
     "Tags": [
       "All",
-      "XSS"
+      "XSS",
+      "Test XSS"
     ],
     "PayloadResponse": false,
     "NotResponse": false,

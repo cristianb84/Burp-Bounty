@@ -20,7 +20,8 @@
       "true,/.gitkeep",
       "true,/.gitmodules",
       "true,/.gitreview",
-      "true,/.git/logs/HEAD"
+      "true,/.git/logs/HEAD",
+      "true,/.git/config~"
     ],
     "Encoder": [],
     "UrlEncode": false,
@@ -30,7 +31,8 @@
       "true,Or,[core]"
     ],
     "Tags": [
-      "All"
+      "All",
+      "Fuzzing Files"
     ],
     "PayloadResponse": false,
     "NotResponse": false,
